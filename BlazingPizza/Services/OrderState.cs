@@ -26,4 +26,8 @@ public class OrderState
         ConfiguringPizza = null;
         ShowingConfigureDialog = false;
     }
+    public void ResetOrder()
+    {
+        Order = new Order();
+    }
 }
